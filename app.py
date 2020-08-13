@@ -60,7 +60,7 @@ def main():
             features = pd.DataFrame(dataIn, index=[0])
             return features
         input_df = user_input_features()
-    import maincode
+    
     inputVals = input_df
     toPredict = inputVals.copy()
 
