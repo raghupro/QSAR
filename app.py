@@ -33,7 +33,7 @@ def main():
     st.sidebar.markdown("<p style='text-align: center; color: black;'>-- or --</p>", unsafe_allow_html=True)
 
     if uploaded_file is not None:
-        os.system('python maincode.py') #comment out this line if not needed
+        #os.system('python maincode.py') #comment out this line if not needed
         def try_read_df(f):
             try:
                 return pd.read_csv(f)
@@ -42,7 +42,7 @@ def main():
         input_df = try_read_df(uploaded_file)
         #input_df = pd.read_csv(uploaded_file)
     else:
-        os.system('python maincode.py') #comment out this line if not needed
+        #os.system('python maincode.py') #comment out this line if not needed
         def user_input_features():
             feature1 = st.sidebar.number_input("CIC0", value = 2.94)
             feature2 = st.sidebar.number_input("SM1_Dz(Z)", value = 0.56)
