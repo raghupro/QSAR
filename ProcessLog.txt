@@ -1,0 +1,201 @@
+2020-08-12 20:31:35.163876
+Implemented a function to log process, errors and retraining data
+
+2020-08-12 20:31:35.164490
+Imported necessary packages
+
+2020-08-12 20:31:35.165285
+Implemented a function to check if retraining is needed
+
+2020-08-12 20:31:35.882204
+Database ingestion completed
+
+2020-08-12 20:31:35.900954
+Successfully loaded data from database to dataframe
+
+2020-08-12 20:31:35.902619
+Removed database id label from dataframe
+
+2020-08-12 20:31:35.907489
+Typecasted data types to int and float from object
+
+2020-08-12 20:31:35.912014
+Dropping duplicate rows from dataframe
+
+2020-08-12 20:31:35.921348
+Null values are found and replaced with median value of feature
+
+2020-08-12 20:31:35.922360
+Separated categorical and continuous features
+
+2020-08-12 20:31:35.930278
+Detected and handled outliers by univariate analysis
+
+2020-08-12 20:31:35.931745
+Separated dependent feature
+
+2020-08-12 20:31:35.935857
+Constant features detected and eliminated
+
+2020-08-12 20:31:35.938776
+Quasi constant features detected and eliminated
+
+2020-08-12 20:31:36.464299
+Duplicate features detected and eliminated
+
+2020-08-12 20:31:36.466213
+Correlated set of features detected and best feature retained
+
+2020-08-12 20:31:36.468431
+Train and test data separated to prevent data leakage
+
+2020-08-12 20:31:36.478803
+Train data scaling performed
+
+2020-08-12 20:31:36.483268
+Train data's skewed features normalised
+
+2020-08-12 20:31:36.486394
+Beginning dimensionality reduction
+
+2020-08-12 20:31:36.486806
+Chosing number of dimensions covering 99% variance
+
+2020-08-12 20:31:36.496021
+Generated input data with dimensionality reduction performed
+
+2020-08-12 20:31:36.508022
+Test data scaling performed
+
+2020-08-12 20:31:36.511162
+Test data's skewed features normalised
+
+2020-08-12 20:31:36.515768
+Applying dimensionality reduction on test data using previously built model
+
+2020-08-12 20:31:36.518281
+Retraining model
+
+2020-08-12 20:31:45.761610
+Model retraining completed
+
+2020-08-12 20:31:45.765844
+Model with highest R2 score selected as best model
+
+2020-08-12 20:31:45.768109
+Saved best model as pickle file
+
+2020-08-12 20:31:45.770807
+Saved model loaded for prediction
+
+2020-08-12 20:31:45.771138
+Building sidebar of web app
+
+2020-08-12 20:31:45.773113
+Building user input via batch upload or individual values in sidebar
+
+2020-08-12 20:31:45.777228
+Scaling, transforming and reducing dimensions for input values
+
+2020-08-12 20:31:45.791848
+Predicting LC50 values
+
+2020-08-12 20:31:45.795244
+Displaying input and predicted values
+
+2020-08-12 20:33:08.388078
+Implemented a function to log process, errors and retraining data
+
+2020-08-12 20:33:08.388592
+Imported necessary packages
+
+2020-08-12 20:33:08.389449
+Implemented a function to check if retraining is needed
+
+2020-08-12 20:33:11.243926
+Database ingestion completed
+
+2020-08-12 20:33:11.260292
+Successfully loaded data from database to dataframe
+
+2020-08-12 20:33:11.262090
+Removed database id label from dataframe
+
+2020-08-12 20:33:11.267448
+Typecasted data types to int and float from object
+
+2020-08-12 20:33:11.273763
+Dropping duplicate rows from dataframe
+
+2020-08-12 20:33:11.282682
+Null values are found and replaced with median value of feature
+
+2020-08-12 20:33:11.283737
+Separated categorical and continuous features
+
+2020-08-12 20:33:11.292426
+Detected and handled outliers by univariate analysis
+
+2020-08-12 20:33:11.294022
+Separated dependent feature
+
+2020-08-12 20:33:11.297546
+Constant features detected and eliminated
+
+2020-08-12 20:33:11.300885
+Quasi constant features detected and eliminated
+
+2020-08-12 20:33:11.895208
+Duplicate features detected and eliminated
+
+2020-08-12 20:33:11.897802
+Correlated set of features detected and best feature retained
+
+2020-08-12 20:33:11.901576
+Train and test data separated to prevent data leakage
+
+2020-08-12 20:33:11.916148
+Train data scaling performed
+
+2020-08-12 20:33:11.922551
+Train data's skewed features normalised
+
+2020-08-12 20:33:11.925807
+Beginning dimensionality reduction
+
+2020-08-12 20:33:11.926212
+Chosing number of dimensions covering 99% variance
+
+2020-08-12 20:33:11.936448
+Generated input data with dimensionality reduction performed
+
+2020-08-12 20:33:11.951474
+Test data scaling performed
+
+2020-08-12 20:33:11.954819
+Test data's skewed features normalised
+
+2020-08-12 20:33:11.959967
+Applying dimensionality reduction on test data using previously built model
+
+2020-08-12 20:33:11.962336
+Using saved model
+
+2020-08-12 20:33:11.965759
+Saved model loaded for prediction
+
+2020-08-12 20:33:11.966402
+Building sidebar of web app
+
+2020-08-12 20:33:11.967816
+Building user input via batch upload or individual values in sidebar
+
+2020-08-12 20:33:11.971913
+Scaling, transforming and reducing dimensions for input values
+
+2020-08-12 20:33:11.987251
+Predicting LC50 values
+
+2020-08-12 20:33:11.997989
+Displaying input and predicted values
+
