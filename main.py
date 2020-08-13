@@ -772,19 +772,11 @@ try:
         #input_df = pd.read_csv(uploaded_file)
     else:
         def user_input_features(data):
-            feature1 = st.sidebar.number_input("CIC0", value = 2.94)
-            feature2 = st.sidebar.number_input("SM1_Dz(Z)", value = 0.56)
-            feature3 = st.sidebar.number_input("GATS1i", value = 1.23)
             feature4 = st.sidebar.slider('NdsCH',  0, 4, 0, step = 1)
             feature5 = st.sidebar.slider('NdssC', 0, 6, 0, step = 1)
-            feature6 = st.sidebar.number_input("MLOGP", value = 2.13)
             
-            dataIn = {'CIC0': feature1,
-                    'SM1_Dz(Z)': feature2,
-                    'GATS1i': feature3,
-                    'NdsCH': feature4,
-                    'NdssC': feature5,
-                    'MLOGP': feature6}
+            dataIn = {'NdsCH': feature4,
+                    'NdssC': feature5}
             features = pd.DataFrame(dataIn, index=[0])
             return features
         input_df = user_input_features(data)
