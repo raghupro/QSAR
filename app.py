@@ -22,7 +22,7 @@ def main():
     st.write("""
     # LC50 predictor
     ***Lethal concentration 50*** (**LC50**) is the amount of a substance suspended
-     in the air required to kills 50% of a test animals during a predetermined
+     in the water required to kills 50% of a test fish during a predetermined
      observation period. **LC50** values are frequently used as a general indicator
      of a substance's acute toxicity.
     """)
