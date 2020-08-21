@@ -72,7 +72,7 @@ def updateCount():
     else:
         countDf.iloc[0,1] = countDf.iloc[0,1] + lastCount
         countDf.iloc[1:-1,:] = countDf.iloc[2:,:].values
-        countDf.iloc[-1,0] = str(datetime.date.today())
+        countDf.iloc[-1,0] = str(date.today())
         countDf.iloc[-1,1] = 1
     countDf.to_csv(fileName, header = False, index = False)
 
