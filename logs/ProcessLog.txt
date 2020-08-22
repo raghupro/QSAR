@@ -1,0 +1,177 @@
+2020-08-22 18:14:07.557504
+Initiated logger
+
+2020-08-22 18:14:07.682291
+Imported necessary packages
+
+2020-08-22 18:14:08.410583
+Database ingestion completed
+
+2020-08-22 18:14:08.427050
+Successfully loaded data from database to dataframe
+
+2020-08-22 18:14:08.428837
+Removed unnecessary label from dataframe
+
+2020-08-22 18:14:08.434811
+Typecasted data types to int and float from object
+
+2020-08-22 18:14:08.435187
+Typecasted data types to int and float from object
+
+2020-08-22 18:14:08.440986
+Dropping duplicate rows from dataframe
+
+2020-08-22 18:14:08.453058
+Null values that are found and replaced with median value of feature
+
+2020-08-22 18:14:08.453266
+Null values are found and replaced with median value of feature
+
+2020-08-22 18:14:08.458536
+Separated categorical and continuous features
+
+2020-08-22 18:14:08.469619
+Detected and handled outliers by univariate analysis
+
+2020-08-22 18:14:08.469852
+Detected and handled outliers by univariate analysis
+
+2020-08-22 18:14:08.471938
+Separated dependent feature
+
+2020-08-22 18:14:08.476279
+Constant features detected and eliminated
+
+2020-08-22 18:14:08.476488
+Constant features detected and eliminated
+
+2020-08-22 18:14:08.481134
+Quasi constant features detected and eliminated
+
+2020-08-22 18:14:08.481346
+Quasi constant features detected and eliminated
+
+2020-08-22 18:14:09.041030
+Duplicate features detected and eliminated
+
+2020-08-22 18:14:09.041249
+Duplicate features detected and eliminated
+
+2020-08-22 18:14:09.043532
+Correlated set of features detected and best feature retained
+
+2020-08-22 18:14:09.043731
+Correlated set of features detected and best feature retained
+
+2020-08-22 18:14:09.046545
+Train and test data separated to prevent data leakage
+
+2020-08-22 18:14:09.052389
+Scaling model generated
+
+2020-08-22 18:14:09.052622
+Scaling model generated
+
+2020-08-22 18:14:09.056439
+Data scaling performed
+
+2020-08-22 18:14:09.060681
+Train data scaling performed
+
+2020-08-22 18:14:09.064098
+Skewed features generated
+
+2020-08-22 18:14:09.065339
+Normalisation performed
+
+2020-08-22 18:14:09.066472
+Train data's skewed features normalised
+
+2020-08-22 18:14:09.073985
+PCA model generated
+
+2020-08-22 18:14:09.077668
+Data scaling performed
+
+2020-08-22 18:14:09.077903
+Generated input data with dimensionality reduction performed
+
+2020-08-22 18:14:09.083826
+Data scaling performed
+
+2020-08-22 18:14:09.087705
+Test data scaling performed
+
+2020-08-22 18:14:09.089493
+Normalisation performed
+
+2020-08-22 18:14:09.090964
+Test data's skewed features normalised
+
+2020-08-22 18:14:09.095303
+Data scaling performed
+
+2020-08-22 18:14:09.095588
+Applying dimensionality reduction on test data using previously built model
+
+2020-08-22 18:14:09.096363
+Checking if retraining is needed or not
+
+2020-08-22 18:14:09.098118
+Checking if retraining is required
+
+2020-08-22 18:14:09.098323
+Successfully trained all models
+
+2020-08-22 18:14:09.098844
+Training linear regression
+
+2020-08-22 18:14:11.194981
+Training bayesian ridge regression
+
+2020-08-22 18:14:11.474068
+Decision tree regression
+
+2020-08-22 18:14:11.812572
+Training KNN regression
+
+2020-08-22 18:14:14.791540
+Training support vector regression
+
+2020-08-22 18:14:15.402427
+Training random forest regression
+
+2020-08-22 18:14:19.596589
+Successfully saved best model
+
+2020-08-22 18:58:11.044389
+Initiated logger
+
+2020-08-22 19:02:11.530097
+Initiated logger
+
+2020-08-22 19:02:11.596386
+Initiated logger
+
+2020-08-22 19:02:28.122830
+Initiated logger
+
+2020-08-22 19:03:06.303320
+Initiated logger
+
+2020-08-22 19:03:15.480155
+Initiated logger
+
+2020-08-22 19:03:25.515162
+Initiated logger
+
+2020-08-22 19:04:38.355437
+Initiated logger
+
+2020-08-22 19:08:24.102428
+Initiated logger
+
+2020-08-22 19:09:15.536842
+Initiated logger
+
