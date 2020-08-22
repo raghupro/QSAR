@@ -62,8 +62,8 @@ def showChart(choice):
         plt.bar(countDf.iloc[1:,0].values, countDf.iloc[1:,1].values)
         plt.xticks(rotation = 90)
         plt.xlabel('Date')
-        plt.ylabel('Number of predictions')
-        plt.title('Last 10 days count of predictions made')
+        plt.ylabel('Number of visits')
+        plt.title('Last 10 days count of visitors')
         st.pyplot()
     elif choice == 'Training times':
         fileName = os.path.join(logFolderPath(), 'TrainTimeLog.txt')
